@@ -63,7 +63,7 @@ a {
 .section {
   padding: 94px 0;
   text-align: center;
-  /* background-color: var(--secondary-white-color); */
+  /*  */
 }
 
 .section-2 {
@@ -100,7 +100,7 @@ a {
 
 /* ------------------HEADER-------- */
 .header li {
-  margin: 32px 0;
+  padding: 32px 0;
 }
 .flex {
   display: flex;
@@ -151,7 +151,7 @@ a {
   margin-left: auto;
 }
 .header-nav {
-  font-c: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -160,7 +160,7 @@ a {
 }
 .header-nav,
 .header-nav-1 {
-  padding-right: 50px;
+  margin-right: 50px;
 }
 .header-contacts {
   font-weight: 500;
@@ -345,6 +345,7 @@ a {
 
 .cards {
   padding: 94px 0;
+  background-color: var(--secondary-white-color);
 }
 .main-info-2 {
   font-size: 36px;
